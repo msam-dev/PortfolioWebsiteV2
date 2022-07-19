@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transition: 0.1s;
+}
+.header.active{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
+    transition-delay: 0.1s;
+}
+
+.menuTitle{
+    font-size: 3.2rem;
+    display: none;
+}
+
+.line{
+    background-color: #1687A7;
+    font-size: 0;
+    height: 0px;
+    width: 65vw;
+    max-width: 350px;
+    min-width: 180px;
+    margin-bottom: 2.5rem;
+}
+.nav-menu{
+    display: flex;
+}
+
+.Mlogo{
+    font-size: 20;
+    padding: 0.475rem;
+}
+
+.nav-menu li a{
+    font-size: 20;
+    padding: 0 1.35rem;
+    padding: 1rem;
+}
+.nav-menu li a:hover{
+    color: #0094bd;
+    background-color: rgb(214, 214, 214);
+}
+
+.hamburger{
+    display: none;
+    padding: 1rem;
+}
+
+.menuFooter{
+    height: 0px;
+    width: 0px;
+    font-size: 0;
+}
+
+.samGif{
+    width: 0;
+    height: 0;
+    
+}
+
+@media screen and (max-width: 1040px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100vw;
+        height: 100vh;
+        min-height: 590px;
+        position: absolute;
+        left:0 ;
+        top:-200%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+   
+    .nav-menu.active{
+        top: 0; 
+    }
+    
+    .hamburger{
+        display:initial;
+    }
+    .nav-menu li{
+        padding-top: 0.8rem;
+    }
+
+    .nav-menu li a{
+        font-size: 3.2rem; 
+        padding-left: 0; 
+        margin-left: 15%;
+    }
+
+    .menuTitle{
+        display: initial;
+        padding-left: 15%; 
+    }
+    
+    .line{
+        height: 5px;
+    }
+
+    .menuFooter{
+        height: 110px;
+        width: 100vw;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0px;
+        z-index: -4;
+    }
+
+    .samGif{
+        position: absolute;
+        bottom: 0px;
+        right: 0; 
+        width: 160px;
+        height: 100px;
+    }
+
+   .alot{
+        position: absolute;
+        right: 140px; 
+        padding-top: 45px;
+        font-size: 0.8rem;
+        max-width: 80px;
+    }
+}
