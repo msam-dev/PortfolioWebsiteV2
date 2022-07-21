@@ -49,41 +49,26 @@
 }
 
 @media screen and (max-width: 1410px) {
-    .textBlock{
-        padding-top: 5vh;
-    }
+    
     .headers{
         flex-direction: column;
     }
-    
-    .hello{
-        padding-bottom: 0;
-    }
-   
-    .samuel{
 
-    }
-    
     .welcome{
         padding-bottom: 10px;
     }
     
-    .summary{
-        font-size: 18px;
-    }
     .computerGif{
         padding-left: 7vw;
         padding-top: 0;
+        display: none;
     }
     
 }
    
 
 @media screen and (max-width: 765px) {
-    .textBlock{
-        padding-top: 5vh;
-    }
-
+    
     .hello{
         font-size: 7vw;
         padding-bottom: 0;
@@ -99,7 +84,26 @@
     }
     
     .summary{
-        font-size: 4.5vw;
+        font-size: 4vw;
+    }
+    .computerGif{
+        padding-left: 7vw;
+        padding-top: 0;
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 520px) {
+   .textBlock{
+        padding-top: 5vh;
+    }
+
+    .computerGif{
+        padding-left: 7vw;
+        padding-top: 0;
+        display: initial;
     }
     
 }
