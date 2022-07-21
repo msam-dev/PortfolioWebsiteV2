@@ -1,5 +1,4 @@
 .headers{
-
     display: flex;
     flex-direction: row;
 }
@@ -18,14 +17,12 @@
 .samuel{
     font-size: 96px;
     color: #1687A7;
-
 }
 
 .welcome{
     font-size: 96px;
     color: #363636;
     padding-bottom: 45px;
-
 }
 
 .summary{
@@ -49,7 +46,6 @@
 }
 
 @media screen and (max-width: 1410px) {
-    
     .headers{
         flex-direction: column;
     }
@@ -63,12 +59,10 @@
         padding-top: 0;
         display: none;
     }
-    
 }
    
 
 @media screen and (max-width: 765px) {
-    
     .hello{
         font-size: 7vw;
         padding-bottom: 0;
@@ -91,7 +85,6 @@
         padding-top: 0;
         display: none;
     }
-    
 }
 
 
@@ -105,5 +98,4 @@
         padding-top: 0;
         display: initial;
     }
-    
 }

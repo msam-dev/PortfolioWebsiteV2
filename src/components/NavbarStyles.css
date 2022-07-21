@@ -28,6 +28,7 @@
 .nav-menu{
     display: flex;
     flex-direction: row;
+    padding-right: 20px;
 }
 
 .Mlogo{
@@ -64,7 +65,7 @@
     
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
     .nav-menu{
         background-color: white;
         flex-direction: column;
