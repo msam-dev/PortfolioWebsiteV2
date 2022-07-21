@@ -21,6 +21,9 @@ const handleClick = () => setClick(!click);
                 <div className="line"/>
             </li>
             <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
                 <Link to="/Contact">Contact</Link>
             </li>
             <li>

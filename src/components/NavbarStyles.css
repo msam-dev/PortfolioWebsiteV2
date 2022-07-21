@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     transition: 0.1s;
 }
@@ -26,11 +27,13 @@
 }
 .nav-menu{
     display: flex;
+    flex-direction: row;
 }
 
 .Mlogo{
     font-size: 20;
     padding: 0.475rem;
+    z-index: 1;
 }
 
 .nav-menu li a{
@@ -46,6 +49,7 @@
 .hamburger{
     display: none;
     padding: 1rem;
+    z-index: 1;
 }
 
 .menuFooter{
@@ -60,18 +64,19 @@
     
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 520px) {
     .nav-menu{
+        background-color: white;
         flex-direction: column;
         justify-content: center;
         align-items: left;
         width: 100vw;
         height: 100vh;
-        min-height: 590px;
+        min-height: 670px;
         position: absolute;
         left:0 ;
         top:-200%;
-        z-index: -3;
+        z-index: 0;
         transition: 0.3s;
     }
    

@@ -1,0 +1,105 @@
+.headers{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.textBlock{
+    padding-top: 20vh;
+    padding-left: 7vw;
+}
+
+.hello{
+    font-size: 48px;
+    color: #363636;
+    padding-bottom: 26px;
+}
+
+.samuel{
+    font-size: 96px;
+    color: #1687A7;
+
+}
+
+.welcome{
+    font-size: 96px;
+    color: #363636;
+    padding-bottom: 45px;
+
+}
+
+.summary{
+    font-size: 24px;
+    color:#5F5F5F;
+    max-width: 700px;
+    padding-bottom: 20px;
+}
+
+.computerGif{
+    padding-left: 0;
+    padding-top: 20vh;
+    max-width: 600px;
+    width: 100vw;
+    min-width: 280px;
+    right: 0;
+}
+
+.dotBlue{
+    color: #1687A7;
+}
+
+@media screen and (max-width: 1410px) {
+    .textBlock{
+        padding-top: 5vh;
+    }
+    .headers{
+        flex-direction: column;
+    }
+    
+    .hello{
+        padding-bottom: 0;
+    }
+   
+    .samuel{
+
+    }
+    
+    .welcome{
+        padding-bottom: 10px;
+    }
+    
+    .summary{
+        font-size: 18px;
+    }
+    .computerGif{
+        padding-left: 7vw;
+        padding-top: 0;
+    }
+    
+}
+   
+
+@media screen and (max-width: 765px) {
+    .textBlock{
+        padding-top: 5vh;
+    }
+
+    .hello{
+        font-size: 7vw;
+        padding-bottom: 0;
+    }
+   
+    .samuel{
+        font-size: 12vw;   
+    }
+    
+    .welcome{
+        font-size: 12vw; 
+        padding-bottom: 10px;
+    }
+    
+    .summary{
+        font-size: 4.5vw;
+    }
+    
+}
