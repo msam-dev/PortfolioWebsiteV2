@@ -1,11 +1,22 @@
-.headers{
+.dotBlue{
+    color: #1687A7;
+}
+
+.pageContainer{
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.outerContentDiv{
     display: flex;
     flex-direction: row;
+    margin-top: 20vh;
 }
 
 .textBlock{
-    padding-top: 20vh;
-    padding-left: 7vw;
+    flex: 66%;
 }
 
 .hello{
@@ -28,74 +39,76 @@
 .summary{
     font-size: 24px;
     color:#5F5F5F;
-    max-width: 700px;
-    padding-bottom: 20px;
+    max-width: 750px;
+}
+
+.computerDiv{
+    max-width: 537px;
+    flex: 34%;
+    margin-top: 40px;
 }
 
 .computerGif{
-    padding-left: 0;
-    padding-top: 20vh;
-    max-width: 600px;
-    width: 100vw;
+    max-width: 537px;
     min-width: 280px;
-    right: 0;
 }
 
-.dotBlue{
-    color: #1687A7;
+/*adjustmenmts for when word portfolio wraps around*/
+@media screen and (max-width: 1652px) {
+    .textBlock{
+        max-width: 710px;
+    }
+    .computerDiv{
+        margin-top: 80px;
+    }
 }
 
-@media screen and (max-width: 1410px) {
-    .headers{
+/*adjustments for when word Micallef wraps around*/
+@media screen and (max-width: 1288px) {
+    .textBlock{
+        max-width: none;
+    }
+    .outerContentDiv{
         flex-direction: column;
     }
-
-    .welcome{
-        padding-bottom: 10px;
-    }
-    
     .computerGif{
-        padding-left: 7vw;
-        padding-top: 0;
-        display: none;
+       display: none;
     }
 }
-   
 
-@media screen and (max-width: 765px) {
-    .hello{
-        font-size: 7vw;
-        padding-bottom: 0;
+@media screen and (max-width: 1114px) {
+    .textBlock{
+        max-width: 710px;
     }
-   
-    .samuel{
-        font-size: 12vw;   
+    .outerContentDiv{
+        margin-top: 10vh;
+    } 
+}
+
+@media screen and (max-width: 770px) {
+    .computerGif,.computerDiv{
+        display: initial;
+        width: 100%;
+        max-width: none;
+        margin-top: 10px;
     }
-    
-    .welcome{
-        font-size: 12vw; 
+    .outerContentDiv{
+        margin-top: 7vh;
+    } 
+    .hello, .welcome{
         padding-bottom: 10px;
     }
-    
+    .hello{
+        font-size: 6vw;
+    }
+    .samuel{
+        font-size: 11.5vw;   
+    }
+    .welcome{
+        font-size: 11.5vw; 
+        padding-bottom: 10px;
+    }
     .summary{
         font-size: 4vw;
-    }
-    .computerGif{
-        padding-left: 7vw;
-        padding-top: 0;
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 520px) {
-   .textBlock{
-        padding-top: 5vh;
-    }
-
-    .computerGif{
-        padding-left: 7vw;
-        padding-top: 0;
-        display: initial;
     }
 }

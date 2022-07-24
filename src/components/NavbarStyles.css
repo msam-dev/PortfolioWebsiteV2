@@ -23,7 +23,7 @@
     width: 65vw;
     max-width: 350px;
     min-width: 180px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 .nav-menu{
     display: flex;
@@ -62,7 +62,6 @@
 .samGif{
     width: 0;
     height: 0;
-    
 }
 
 @media screen and (max-width: 540px) {
@@ -76,7 +75,7 @@
         min-height: 670px;
         position: absolute;
         left:0 ;
-        top:-200%;
+        top:-500%;
         z-index: 0;
         transition: 0.3s;
     }

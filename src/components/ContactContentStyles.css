@@ -1,0 +1,17 @@
+.headersx{
+    display: flex;
+    flex-direction: column;
+}
+.borderContact{
+    display: flex;
+    flex-direction: column;
+}
+
+.lets{
+    font-size: 96px;
+    color: #1687A7;
+}
+.EM, .LN{
+    color: #1687A7;
+    font-weight: 100%;
+}
