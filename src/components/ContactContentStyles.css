@@ -1,25 +1,14 @@
-.ContactPageContainer{
-    padding-top: 20vh;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    justify-content: center;
-
+.ContactBlueUnderline{
+    color: #1687A7;
+    text-decoration: underline;
 }
-
+.ContactBlue{
+    color: #1687A7;
+}
 .Linked{
     color:#5F5F5F;
 }
-
-.ContactLinks{
-    font-size: 24px;
-    color:#5F5F5F;
-    text-align: center;
-    
-
-}
-
-.Cemail{
+.ContactEmail{
     padding-bottom: 7px;
 }
 
@@ -29,21 +18,24 @@
     padding-bottom: 2vh;
 }
 
-.cBlue{
-    color: #1687A7;
-    text-decoration: underline;
-    font-weight: 100%;
+.ContactPageContainer{
+    padding-top: 20vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.ContactBlue{
-    color: #1687A7;
+.ContactLinks{
+    font-size: 24px;
+    color:#5F5F5F;
+    text-align: center;
 }
 
 @media screen and (max-width: 650px) {
     .ContactLinks{
         font-size: 4.5vw;
     }
-    
     .lets{
         font-size: 11vw;   
     }
