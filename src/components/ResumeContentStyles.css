@@ -1,51 +1,36 @@
-.ContactPageContainer{
+.ResumePageContainer{
     padding-top: 20vh;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     justify-content: center;
-
 }
 
-.Linked{
-    color:#5F5F5F;
-}
-
-.ContactLinks{
-    font-size: 24px;
-    color:#5F5F5F;
-    text-align: center;
-    
-
-}
-
-.Cemail{
-    padding-bottom: 7px;
-}
-
-.lets{
+.resume{
     font-size: 70px;
     color: #363636;
     padding-bottom: 2vh;
+    text-align: center;
 }
 
-.cBlue{
-    color: #1687A7;
+.blueLink{
     text-decoration: underline;
-    font-weight: 100%;
+    color: #1687A7;
 }
 
-.ContactBlue{
-    color: #1687A7;
+.resumeLink{
+    font-size: 24px;
+    color:#5F5F5F;
+    text-decoration: none;
+    padding-bottom: 7px;
 }
 
 @media screen and (max-width: 650px) {
-    .ContactLinks{
+    .resumeLink{
         font-size: 4.5vw;
     }
     
-    .lets{
+    .resume{
         font-size: 11vw;   
     }
 }
-
