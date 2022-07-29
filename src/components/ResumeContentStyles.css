@@ -1,5 +1,5 @@
 .ResumePageContainer{
-    padding-top: 20vh;
+    padding-top: calc(70px + 20vh);
     padding-left: 15px;
     padding-right: 15px;
     display: flex;

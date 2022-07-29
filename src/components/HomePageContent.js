@@ -1,6 +1,6 @@
 import "./HomePageContentStyles.css";
 import computerGif from "../images/computer.gif"
-import React, { useState } from 'react';
+import React from 'react';
 
 const HomePageContent = () => {
   return (

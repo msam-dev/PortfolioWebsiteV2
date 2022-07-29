@@ -9,7 +9,7 @@
     color:#5F5F5F;
 }
 .ContactEmail{
-    padding-bottom: 7px;
+    margin-bottom: 7px;
 }
 
 .lets{
@@ -19,7 +19,7 @@
 }
 
 .ContactPageContainer{
-    padding-top: 20vh;
+    padding-top: calc(70px + 20vh);
     padding-left: 15px;
     padding-right: 15px;
     display: flex;

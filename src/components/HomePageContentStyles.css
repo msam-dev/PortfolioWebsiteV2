@@ -5,6 +5,7 @@
 .pageContainer{
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 70px;
     justify-content: center;
     display: flex;
 }
