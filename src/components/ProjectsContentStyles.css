@@ -1,0 +1,14 @@
+.ProjectsContentContainer{
+    padding-top: calc(70px + 20vh);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects{
+    font-size: 70px;
+    color: #363636;
+    padding-bottom: 2vh;
+    text-align: center;
+}
