@@ -1,0 +1,91 @@
+.icon{
+    vertical-align:-11%;
+}
+
+.projectCard{
+    background: #f2f4f8;
+    max-width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.projectCard img{
+    max-width: 500px;
+}
+
+.projectTitle{
+    font-size: 28px;
+    color: #363636;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projectSummary{
+    font-size: 24px;
+    color:#5F5F5F;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 55px;
+    text-align: justify;
+}
+
+.proBtns{
+    display: flex;
+    justify-content:space-around;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.proBtns .btn{
+    background: white; 
+    padding: 0.5rem 0.7rem;
+    font-size: 24px;
+    color:#5F5F5F;
+    border-radius: 5px;
+}
+
+.proBtns .btn:hover{
+    color:#1687A7;
+}
+
+
+
+@media screen and (max-width: 520px){
+    .projectCard img{
+        max-width: 100%;   
+    }
+    .proBtns .btn{
+        font-size: 4vw;
+        padding: 1.5vw 3vw;
+    }
+    .icon{
+        size: 4vw;
+    }
+    .proBtns{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .projectCard{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6vw;
+        margin-bottom: 10vw;
+    }
+    .projectTitle{
+        padding-left: 3vw;
+        padding-right: 3vw;
+        font-size: 4.5vw;
+    }
+    .projectSummary{
+        font-size: 4vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 10vw;
+    }
+}

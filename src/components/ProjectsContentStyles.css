@@ -6,9 +6,38 @@
     justify-content: center;
 }
 
+.projectCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1070px;
+    justify-content: center;
+}
+
 .Projects{
     font-size: 70px;
     color: #363636;
     padding-bottom: 2vh;
     text-align: center;
 }
+
+@media screen and (max-width:1070px) {
+    .projectCards{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Projects{
+        font-size: 11vw;   
+    }
+}
+
+@media screen and (max-width: 650px) and (max-height: 1300px) {
+    .ProjectsContentContainer{
+        padding-top: calc(70px + 5vh);
+        
+    }
+}
+
+

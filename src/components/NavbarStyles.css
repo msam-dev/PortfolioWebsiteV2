@@ -48,8 +48,8 @@
     padding: 1rem;
 }
 .nav-menu li a:hover{
-    color: #0094bd;
-    background-color: rgb(214, 214, 214);
+    color: #1687A7;
+    text-decoration: underline;
 }
 
 .hamburger{

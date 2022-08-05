@@ -50,13 +50,10 @@
 
 @media screen and (max-width: 650px) {
     .AboutTxt{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
     .About{
         font-size: 11vw;   
-    }
-    .AboutTxt{
-        text-align: center;
     }
 }
 
