@@ -1,4 +1,3 @@
-# Details for portfolio website project
 ## Summary
 This is the second and updated version of my personal developer portfolio.\
 I find that websites using complex designs can be interesting, however when well executed, a clean and minimal website often offers a more enjoyable experience for the user. This is the core philosophy I had when designing and creating this website. 
