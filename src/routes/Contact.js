@@ -8,7 +8,6 @@ const Contact = () => {
     <div>
       <Navbar/>
       <ContactContent/>
-      <Footer/>
     </div>
   )
 }

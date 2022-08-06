@@ -8,7 +8,6 @@ const Resume = () => {
     <div>
       <Navbar/>
       <ResumeContent/>
-      <Footer/>
       </div>
   )
 }
