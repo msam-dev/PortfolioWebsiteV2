@@ -11,9 +11,9 @@ const ProjectData = [
     {
         imageSrc: projectImage1,
         projectTitle: "Portfolio Website",
-        projectSummary: "This is the website you are currently using.  It was fully designed by me and implemented using the React JavaScript library.",
-        projectUrl: "url.com",
-        codeUrl: "url.com",
+        projectSummary: "This is the website you are using right now!  It was fully designed by me and created+ using the React JavaScript library.",
+        projectUrl: "/",
+        codeUrl: "https://github.com/Sammy-Dev/PortfolioWebsiteV2",
         detailsUrl: "url.com",
     },
     {
