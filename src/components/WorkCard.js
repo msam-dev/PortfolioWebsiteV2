@@ -1,7 +1,5 @@
 import "./WorkCardStyles.css";
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
-
 import { FaGithub, FaFileAlt, FaExternalLinkAlt} from 'react-icons/fa';
 
 
@@ -16,9 +14,9 @@ class WorkCard extends Component {
             {this.props.projectSummary}
           </div>
           <div className="proBtns">
-            <NavLink to={this.props.projectUrl} className="btn"><FaExternalLinkAlt className="icon"/> Project</NavLink>
-            <NavLink to={this.props.codeUrl}  className="btn">&nbsp;<FaGithub className="icon"/> Code &nbsp; </NavLink>
-            <NavLink to={this.props.detailsUrl}  className="btn"><FaFileAlt className="icon"/> Details</NavLink>
+            <a href={this.props.projectUrl} className="btn" target="_blank" rel="noreferrer"><FaExternalLinkAlt className="icon"/> Project</a>
+            <a href={this.props.codeUrl}    className="btn" target="_blank" rel="noreferrer">&nbsp;<FaGithub className="icon"/> Code &nbsp;</a>
+            <a href={this.props.detailsUrl} className="btn" target="_blank" rel="noreferrer">      <FaFileAlt className="icon"/> Details</a>
           </div>
         </div>
       </div>
