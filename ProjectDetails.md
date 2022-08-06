@@ -9,4 +9,4 @@ For development of the website I used the **React** JavaScript framework inside 
 For hosting the website, I used **GitHub Pages** with a custom domain name.\
 
 
-`If you have any questions contact me here msam.dev/contact`
+If you have any questions contact me here [msam.dev/contact](https://msam.dev/contact).
