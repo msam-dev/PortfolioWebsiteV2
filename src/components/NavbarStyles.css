@@ -16,20 +16,6 @@
     transition-delay: 0.1s;
 }
 
-.menuTitle{
-    font-size: 3.2rem;
-    display: none;
-}
-
-.line{
-    background-color: #1687A7;
-    font-size: 0;
-    height: 0px;
-    width: 65vw;
-    max-width: 350px;
-    min-width: 180px;
-    margin-bottom: 1.5rem;
-}
 .nav-menu{
     display: flex;
     flex-direction: row;
@@ -82,44 +68,36 @@
         top:-500%;
         z-index: 0;
         transition: 0.3s;
-        
     }
-   
     .nav-menu.active{
         top:0;
     }
-    
     .hamburger{
         display:initial;
     }
     .nav-menu li{
         padding-top: 0.8rem;
     }
-
     .nav-menu li a{
         font-size: 3.2rem; 
         padding-left: 0; 
         margin-left: 15%;
     }
-
     .menuTitle{
         display: initial;
         padding-left: 15%; 
     }
-    
     .line{
         height: 5px;
     }
-
     .menuFooter{
         height: 110px;
         width: 100vw;
         font-size: 20px;
         position: absolute;
-        bottom: 0px;
+        bottom: 60px;
         z-index: -4;
     }
-
     .samGif{
         position: absolute;
         bottom: 0px;
@@ -127,11 +105,10 @@
         width: 160px;
         height: 100px;
     }
-
    .alot{
         position: absolute;
         right: 140px; 
-        padding-top: 45px;
+        padding-top: 30px;
         font-size: 0.8rem;
         max-width: 80px;
     }

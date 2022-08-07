@@ -16,10 +16,6 @@ const handleClick = () => setClick(!click);
             <img className="Mlogo"  alt="M logo" src={Mlogo}/>
         </Link>
         <ul className={click ? "nav-menu active": "nav-menu"}>
-            <li className="menuTitle">
-                Menu
-                <div className="line"/>
-            </li>
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -36,8 +32,8 @@ const handleClick = () => setClick(!click);
                 <Link to="/Resume">Resume</Link>
             </li>
             <div className="menuFooter">
-                <div className="alot">This is how I spend alot of my time : ) </div>
-            <img className="samGif"  alt="gif of man coding" src={sam}/>
+                <div className="alot">This is how I spend alot of my time :) </div>
+                <img className="samGif"  alt="gif of man coding" src={sam}/>
             </div>
         </ul>
         
