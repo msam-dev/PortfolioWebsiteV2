@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" href="calcIcon.png">   
+
+    <script src="https://kit.fontawesome.com/f7c1897ff8.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="pageContainer">
+        <div class="calculator">
+            <div class="header">
+                <span class="header1">
+                    Scientific Calculator
+                </span>
+                <span class="header2">
+                    <input  type="checkbox" class="checkbox" id="checkbox" >
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </span>
+            </div>
+            <div class="highlightLine"></div>
+            
+            <div class="display">
+                <div class="calculation"> <!-- output_operation_element -->
+                    <div class="value" id="value"></div>
+                </div>
+                <div class="result">      <!-- output_result_element -->
+                    <div class="value" id="result"></div>
+                </div>
+            </div>
+
+            <div class="input"> 
+                <button type="button" onclick="Display('(')">(</button>
+                <button type="button" onclick="Display(')')">)</button>
+                <button class="equals" type="button" onclick="Clear()">C</button>
+                <button class="equals" type="button" onclick="Backspace()">DEL</button>
+
+                <button type="button" onclick="Display('log(')">log</button>
+                <button type="button" onclick="Display('ln(')">ln</button>
+                <button type="button" onclick="Display('π')">π</button>
+                <button type="button" onclick="Display('sqrt(')">√</button>
+
+                <button type="button" onclick="Display('sin(')">sin</button>
+                <button type="button" onclick="Display('cos(')">cos</button>
+                <button type="button" onclick="Display('tan(')">tan</button>
+                <button type="button" onclick="Display('%')">%</button>
+
+                <button type="button" onclick="Display(7)">7</button>
+                <button type="button" onclick="Display(8)">8</button>
+                <button type="button" onclick="Display(9)">9</button>
+                <button class="altButton"  type="button" onclick="Display('÷')">÷</button>
+
+                <button type="button" onclick="Display(4)">4</button>
+                <button type="button" onclick="Display(5)">5</button>
+                <button type="button" onclick="Display(6)">6</button>
+                <button class="altButton"  type="button" onclick="Display('×')">×</button>
+
+                <button type="button" onclick="Display(1)">1</button>
+                <button type="button" onclick="Display(2)">2</button>
+                <button type="button" onclick="Display(3)">3</button>
+                <button class="altButton" type="button" onclick="Display('−')">−</button>
+
+                <button type="button" onclick="Display(0)">0</button>
+                <button type="button" onclick="Display('.')">•</button>
+                <button class="altButton" type="button" onclick="calculate()">=</button>
+                <button class="altButton" type="button" onclick="Display('+')">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
