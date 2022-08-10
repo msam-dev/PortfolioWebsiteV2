@@ -51,12 +51,24 @@
 @media screen and (max-width: 650px) {
     .AboutTxt{
         font-size: 4vw;
+        text-align: left;
     }
     .About{
         font-size: 11vw;   
     }
 }
 
+@media screen and (max-width: 614px) {
+    .AboutTxt{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    .AboutTxt{
+        text-align: left;
+    }
+}
 @media screen and (max-width: 650px) and (max-height: 1300px) {
     .AboutPageContainer{
         padding-top: calc(70px + 5vh);

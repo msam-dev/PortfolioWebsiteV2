@@ -11,7 +11,7 @@ function App() {
   return( 
       <>
         <Routes>
-          <Route path="/PortfolioWebsiteV2" element={<Home />}/>
+          <Route path="/PortfolioWebsiteV2" element={<Home />} />
           <Route path="/" element={<Home />}/>
           <Route path="/About" element={<About />}/>
           <Route path="/Resume" element={<Resume />}/>

@@ -19,6 +19,7 @@
 .nav-menu{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-right: 20px;
 }
 
@@ -35,7 +36,6 @@
 }
 .nav-menu li a:hover{
     color: #1687A7;
-    text-decoration: underline;
 }
 
 .hamburger{
@@ -59,13 +59,12 @@
     .nav-menu{
         background-color: white;
         flex-direction: column;
-        justify-content: center;
         align-items: left;
         width: 100vw;
         height: 100vh;
-        min-height: 670px;
+        min-height: 590px;
         position: fixed;
-        top:-500%;
+        top:-200%;
         z-index: 0;
         transition: 0.3s;
     }
@@ -95,9 +94,9 @@
         width: 100vw;
         font-size: 20px;
         position: absolute;
-        bottom: 90px;
+        bottom: 75px;
         z-index: -4;
-    }
+    } 
     .samGif{
         position: absolute;
         bottom: 0px;
@@ -111,5 +110,19 @@
         padding-top: 30px;
         font-size: 0.8rem;
         max-width: 80px;
+    }
+
+    .header{
+        height: 55px;
+    }
+}
+
+@media screen and (max-height: 700px)and (max-width: 540px) {
+    .nav-menu{
+        justify-content:right;
+    }
+
+    .homeLink{
+        margin-top: 12vh;
     }
 }
