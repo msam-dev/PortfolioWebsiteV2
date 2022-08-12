@@ -1,6 +1,7 @@
 import projectImage1 from "../images/projectImage1.jpg"
 import projectImage2 from "../images/projectImage2.jpg"
 import projectImage3 from "../images/projectImage3.jpg"
+import animateImg from "../images/animate.jpg"
 
 /*
     project images must be 720 x 360px otherwise will look weird. 
@@ -19,11 +20,20 @@ const ProjectData = [
     {
         imageSrc: projectImage2,
         projectTitle: "Scientific Calculator",
-        projectSummary: "This is a web-based calculator with some more functionality than many standard online calculators. It also includes day/night toggle. This website was made using HTML, CSS and JavaScript.",
+        projectSummary: "A web-based calculator with some more functionality than many standard online calculators. It also includes day/night toggle. This website was made using HTML, CSS and JavaScript.",
         projectUrl: "/calculator.html",
         codeUrl: "https://github.com/Sammy-Dev/Scientifc-Calculator",
         detailsUrl: "https://github.com/Sammy-Dev/Scientifc-Calculator/blob/main/ProjectDetails.md",
     },
+    {
+        imageSrc: animateImg,
+        projectTitle: "Android Animations",
+        projectSummary: "A simple app I made to test and play with android’s image animation functionality. This app was made using java for android.",
+        projectUrl: "https://www.youtube.com/watch?v=NXO6JAi1iu0",
+        codeUrl: "https://github.com/Sammy-Dev/AndroidAnimation",
+        detailsUrl: "https://github.com/Sammy-Dev/AndroidAnimation/blob/main/ProjectDetails.md",
+    },
+    /*
     {
         imageSrc: projectImage3,
         projectTitle: "Title 3",
@@ -32,6 +42,7 @@ const ProjectData = [
         codeUrl: "url.com",
         detailsUrl: "url.com",
     }
+    */
 ];
 
 export default ProjectData;
