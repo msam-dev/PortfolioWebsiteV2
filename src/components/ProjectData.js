@@ -1,10 +1,11 @@
 import projectImage1 from "../images/projectImage1.jpg"
 import projectImage2 from "../images/projectImage2.jpg"
-import projectImage3 from "../images/projectImage3.jpg"
+import Blank from "../images/Blank.png"
 import animateImg from "../images/animate.jpg"
+import testImg from "../images/TestApp.jpg"
 
 /*
-    project images must be 720 x 360px otherwise will look weird. 
+    make project images 720 x 360px. 
     to crop images use https://resizepixel.com/edit
 */
 
@@ -16,6 +17,14 @@ const ProjectData = [
         projectUrl: "/",
         codeUrl: "https://github.com/Sammy-Dev/PortfolioWebsiteV2",
         detailsUrl: "https://github.com/Sammy-Dev/PortfolioWebsiteV2/blob/master/ProjectDetails.md",
+    },
+    {
+        imageSrc: testImg,
+        projectTitle: "Android Test App",
+        projectSummary: "A quiz app I made that lets you test your knowledge on a variety of topics. It also has user registration so you can keep track of your quiz scores. This app was made using java for android.",
+        projectUrl: "https://youtu.be/hi1MHuar9vk",
+        codeUrl: "https://github.com/Sammy-Dev/TestApp",
+        detailsUrl: "https://github.com/Sammy-Dev/TestApp/blob/master/ProjectDetails.md",
     },
     {
         imageSrc: projectImage2,
@@ -33,9 +42,10 @@ const ProjectData = [
         codeUrl: "https://github.com/Sammy-Dev/AndroidAnimation",
         detailsUrl: "https://github.com/Sammy-Dev/AndroidAnimation/blob/main/ProjectDetails.md",
     },
+    
     /*
     {
-        imageSrc: projectImage3,
+        imageSrc: Blank,
         projectTitle: "Title 3",
         projectSummary: "This is sample text, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
         projectUrl: "url.com",
