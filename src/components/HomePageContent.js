@@ -11,7 +11,7 @@ const HomePageContent = () => {
               <div className="samuel">Samuel Micallef.</div>
               <div className="welcome">Welcome to my portfolio<span className="dotBlue">.</span></div>
               <div className="summary">I’m a programming enthusiast who loves building software and solving problems. 
-              I’m currently looking for entry level positions, if you are interested don’t hesitate to get in touch.</div>
+              I’m currently working as a software engineer at <a href="https://www.collinsaerospace.com/">Collins Aerospace</a></div>
           </div>
 
           <div className="computerDiv">
