@@ -1,6 +1,7 @@
 import "./AboutContentStyles.css";
 import DevPortrait from "../images/DevPortrait.jpg"
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const AboutContent = () => {
   return (
@@ -9,9 +10,15 @@ const AboutContent = () => {
         <div className="About"> About Me<span className="dotBlue">.</span></div>
         <div className="AboutContentContainer">
             <div className="AboutTxt">
-                My name is Samuel Micallef, and I am a recent Computer Science graduate (Software Engineering) from the University of Wollongong. My passion for software is driven by a fundamental interest in how technology impacts our daily lives and can affect the future.<br/><br/>
-                I am currently looking for a job in the Information Technology sector. I am open to a wide range of job positions but am mostly looking for an opportunity related to Software Engineering, Web Development and/or Programming generally.<br/><br/>
-                My skills both technical and interpersonal would make me an extremely valuable addition to any team or company. For additional information, please see my resume or projects.
+                I am a Software Engineer currently living in Sydney and working full-time at Collins Aerospace Australia. I recently graduated with a bachelor's degree 
+                in Computer Science(Software Engineering) from the University of Wollongong. <br/><br/>
+
+                I have a deep passion for programming and love of software creation which stems from a keen interest in how technology impacts our daily lives and 
+                the way it is shaping the future. My strong motivation is complemented by my exceptional problem-solving skills and effective communication, 
+                which enable me to excel in team environments.<br/><br/>
+                
+                For more details regarding my technical skills and experience, please see my personal <Link to="/Projects"><span className="inLineProjectLink">projects</span></Link>
+                &nbsp;or <Link to="/Contact"><span className="inLineContactLink">contact me</span></Link> for a copy of my resume.
             </div>
             <div className="PortaitDiv">
                 <img className="DevPortrait"  alt="portrait of samuel in a binary code style" src={DevPortrait}/>

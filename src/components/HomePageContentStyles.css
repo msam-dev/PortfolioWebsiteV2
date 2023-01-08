@@ -2,6 +2,11 @@
     color: #1687A7;
 }
 
+.collinsLink{
+    color: #1687A7;
+    text-decoration: underline;
+}
+
 .pageContainer{
     padding-left: 20px;
     padding-right: 20px;

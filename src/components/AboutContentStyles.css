@@ -12,6 +12,11 @@
     text-align: justify;
 }
 
+.inLineProjectLink, .inLineContactLink{
+    color: #1687A7;
+    text-decoration:underline;
+}
+
 .AboutPageContainer{
     padding-top: calc(70px + 20vh);
     margin-left: 15px;
