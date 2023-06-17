@@ -4,7 +4,7 @@ I find that websites using complex designs can be interesting, however when well
 
 ## Technical details
 For the initial idea mock-ups and design prototypes I used **Figma**.\
-For development of the website I used the **React** JavaScript framework inside of Visual Studio Code IDE.\
+For development of the website I used the **React** JavaScript framework inside of the Visual Studio Code editor.\
 For hosting the website, I used **GitHub Pages** with a custom domain name.
 
 ## Challenges 
