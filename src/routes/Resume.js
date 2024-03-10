@@ -7,7 +7,7 @@ const Resume = () => {
     <div>
       <Navbar/>
       <ResumeContent/>
-      </div>
+    </div>
   )
 }
 

@@ -1,6 +1,4 @@
 import "./ProjectsContentStyles.css";
-import React from 'react';
-
 import WorkCard from "./WorkCard";
 import ProjectData from "./ProjectData";
 
