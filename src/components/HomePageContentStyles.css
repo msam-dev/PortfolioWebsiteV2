@@ -23,6 +23,7 @@
 
 .textBlock{
     flex: 66%;
+    padding-bottom: 3rem;
 }
 
 .hello{

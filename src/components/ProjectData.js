@@ -1,8 +1,8 @@
 import projectImage1 from "../images/projectImage1.jpg"
 import projectImage2 from "../images/projectImage2.jpg"
-import Blank from "../images/Blank.png"
 import animateImg from "../images/animate.jpg"
 import testImg from "../images/TestApp.jpg"
+// import Blank from "../images/Blank.png"
 
 /*
     make project images 720 x 360px. 

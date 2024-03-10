@@ -1,6 +1,5 @@
 import "./HomePageContentStyles.css";
 import computerGif from "../images/computer.gif"
-import React from 'react';
 
 const HomePageContent = () => {
   return (
