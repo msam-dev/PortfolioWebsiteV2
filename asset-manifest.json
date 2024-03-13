@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82e5abd2.css",
-    "main.js": "/static/js/main.a817827c.js",
+    "main.js": "/static/js/main.0d5249ff.js",
     "static/media/HikingNZ.jpg": "/static/media/HikingNZ.a0e27eaf08dd6454f642.jpg",
     "static/media/computer.gif": "/static/media/computer.9af7025e5a98552f49e4.gif",
     "static/media/animate.jpg": "/static/media/animate.79a8151d6f0d93b20387.jpg",
@@ -10,10 +10,10 @@
     "static/media/samGifHD.gif": "/static/media/samGifHD.50d7ff656f5872bda0aa.gif",
     "index.html": "/index.html",
     "main.82e5abd2.css.map": "/static/css/main.82e5abd2.css.map",
-    "main.a817827c.js.map": "/static/js/main.a817827c.js.map"
+    "main.0d5249ff.js.map": "/static/js/main.0d5249ff.js.map"
   },
   "entrypoints": [
     "static/css/main.82e5abd2.css",
-    "static/js/main.a817827c.js"
+    "static/js/main.0d5249ff.js"
   ]
 }
