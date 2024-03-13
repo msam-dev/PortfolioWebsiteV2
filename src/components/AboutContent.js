@@ -24,14 +24,15 @@ const AboutContent = () => {
             with a bachelor's degree in Computer Science, Majoring in Software Engineering. 
           </p>
           <p className="AboutText">
-            To get a sense of who I am as a developer you should know two key things. 
-            Firstly, I love the act of creation. My entire life I have had an innate attraction to making and building stuff. 
-            Secondly, I have a deep fascination with all things related to Science, Technology, and Engineering 
-            (which also has been with me since childhood).
+            To get a sense of who I am as a developer you should know two key things that are fundamnetal to my being. 
+            Firstly, I love the act of creation. My entire life I have been strongly drawn to making and building stuff. 
+            Secondly, I have a deep fascination with all things related to Science, Technology, and Engineering that has also been with me since childhood.
             These characteristics are compatible with a vast array of technical areas, however I specifically gravitated 
             towards software development because I see programming as a form of creation that is more flexible and less encumbered 
-            than the many disciplines that concern themselves with trying to engineer physical systems. 
-            My strong passion is complemented by my exceptional problem-solving skills 
+            than the many disciplines that are focused on engineering physical systems.
+          </p>
+          <p className="AboutText">  
+            My passionate love of programming is complemented by my exceptional problem-solving skills 
             and effective communication, which allow me to excel in team environments.
           </p>
           <p className="AboutText">
