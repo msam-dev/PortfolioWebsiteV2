@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.82e5abd2.css",
-    "main.js": "/static/js/main.0d5249ff.js",
-    "static/media/HikingNZ.jpg": "/static/media/HikingNZ.a0e27eaf08dd6454f642.jpg",
-    "static/media/computer.gif": "/static/media/computer.9af7025e5a98552f49e4.gif",
-    "static/media/animate.jpg": "/static/media/animate.79a8151d6f0d93b20387.jpg",
-    "static/media/TestApp.jpg": "/static/media/TestApp.fc80a2429a7b223019e4.jpg",
-    "static/media/projectImage1.jpg": "/static/media/projectImage1.657014569b17ca9262a2.jpg",
+    "main.js": "/static/js/main.7e6f58ca.js",
+    "static/media/computer.gif": "/static/media/computer.8ce3a00d94a83d61141a.gif",
+    "static/media/HikingNZ.webp": "/static/media/HikingNZ.7f2b42cdb6e67c326627.webp",
+    "static/media/MilfordSound.webp": "/static/media/MilfordSound.507a2d8850eb7d9cb765.webp",
     "static/media/samGifHD.gif": "/static/media/samGifHD.50d7ff656f5872bda0aa.gif",
+    "static/media/animate.webp": "/static/media/animate.17cc8e4a74ecf6e734b5.webp",
+    "static/media/TestApp.webp": "/static/media/TestApp.262bea0b12ea266901ed.webp",
+    "static/media/projectImage1.webp": "/static/media/projectImage1.bcdcd1b2b85452479e16.webp",
+    "static/media/projectImage2.webp": "/static/media/projectImage2.ad0695361cf308ca4831.webp",
     "index.html": "/index.html",
     "main.82e5abd2.css.map": "/static/css/main.82e5abd2.css.map",
-    "main.0d5249ff.js.map": "/static/js/main.0d5249ff.js.map"
+    "main.7e6f58ca.js.map": "/static/js/main.7e6f58ca.js.map"
   },
   "entrypoints": [
     "static/css/main.82e5abd2.css",
-    "static/js/main.0d5249ff.js"
+    "static/js/main.7e6f58ca.js"
   ]
 }
