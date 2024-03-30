@@ -29,39 +29,52 @@ function Backspace(){
 function calculate(){
     calculationFormatter();
     var calc = calculation.join("");
-    console.log(calc);
     var result = eval(calc); //converts string into code
     document.getElementById('result').innerHTML = result;
     calculation = [];
 }
 
 function calculationFormatter(){
+    var operation = "";
     for(var i = 0; i<displayArray.length; i++){
-        if(displayArray[i] == "log("){
-            calculation.push("Math.log10(");
-        }else if(displayArray[i] == "ln("){
-            calculation.push("Math.log(");
-        }else if(displayArray[i] == "π"){
-            calculation.push("Math.PI");
-        }else if(displayArray[i] == "÷"){
-            calculation.push("/");
-        }else if(displayArray[i] == "×"){
-            calculation.push("*");
-        }else if(displayArray[i] == "−"){
-            calculation.push("-");
-        }else if(displayArray[i] == "sin("){
-            calculation.push("Math.sin(");
-        } else if(displayArray[i] == "cos("){
-            calculation.push("Math.cos(");
-        } else if(displayArray[i] == "tan("){
-            calculation.push("Math.tan(");
-        }else if(displayArray[i] == "sqrt("){
-            calculation.push("Math.sqrt(");
-        }else if(displayArray[i] == "%"){
-            calculation.push("*0.01");
-        }else{
-            calculation.push(displayArray[i]);
+        switch(displayArray[i]){
+            case "log(":
+                operation = "Math.log10(";                                              
+                break;                                          
+            case "ln(":                                            
+                operation = "Math.log(";                                         
+                break;                                          
+            case "π":                                            
+                operation = "Math.PI";                                  
+                break;                                          
+            case "÷":                                            
+                operation = "/";                                         
+                break;                                          
+            case "×":                                            
+                operation = "*";                                         
+                break;                                          
+            case "−":                                            
+                operation = "-";                                         
+                break;                                          
+            case "sin(":                                            
+                operation = "Math.sin(";                                         
+                break;                                          
+            case "cos(":                                            
+                operation = "Math.cos(";                                         
+                break;                                          
+            case "tan(":                                            
+                operation = "Math.tan(";                                         
+                break;                                          
+            case "sqrt(":                                            
+                operation = "Math.sqrt(";                                         
+                break;                                          
+            case "%":                                            
+                operation = "*0.01";                                         
+                break;       
+            default:
+                operation = displayArray[i]; 
         }
+        calculation.push(operation);
     }
 }
 
