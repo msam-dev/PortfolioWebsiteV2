@@ -9,8 +9,7 @@ const HomePageContent = () => {
               <div className="hello">Hello, my name is</div>
               <div className="samuel">Samuel Micallef.</div>
               <div className="welcome">Welcome to my portfolio<span className="dotBlue">.</span></div>
-              <div className="summary">I’m a Sydney based Software Engineer who loves building software and solving problems. 
-              I am currently working at <a className="collinsLink" href="https://www.collinsaerospace.com/">Collins Aerospace</a>.</div>
+              <div className="summary">I’m a Software Engineer and technology enthusiast who loves building software and solving problems. </div>
           </div>
 
           <div className="computerDiv">

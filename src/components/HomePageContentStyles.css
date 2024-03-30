@@ -60,7 +60,7 @@
     
 }
 
-/*adjustmenmts for when word portfolio wraps around*/
+/*adjustments for when word portfolio wraps around*/
 @media screen and (max-width: 1652px) {
     .textBlock{
         max-width: 710px;
