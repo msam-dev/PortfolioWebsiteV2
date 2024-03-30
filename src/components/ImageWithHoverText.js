@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ImageWithHoverText = ({ src, alt, hoverText, style }) => {
+const ImageWithHoverText = ({ src, alt, text, style }) => {
   const [showHoverText, setShowHoverText] = useState(false);
 
   const handleMouseEnter = () => {
@@ -30,7 +30,7 @@ const ImageWithHoverText = ({ src, alt, hoverText, style }) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       />
-      {showHoverText && (<div style={textStyle}>{hoverText}</div>)}
+      {showHoverText && (<div style={textStyle}>{text}</div>)}
     </div>
   );
 };

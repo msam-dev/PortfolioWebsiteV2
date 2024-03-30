@@ -1,8 +1,8 @@
-import projectImage1 from "../images/projectImage1.jpg"
-import projectImage2 from "../images/projectImage2.jpg"
-import animateImg from "../images/animate.jpg"
-import testImg from "../images/TestApp.jpg"
-// import Blank from "../images/Blank.png"
+import projectImage1 from "../images/projectImage1.webp"
+import projectImage2 from "../images/projectImage2.webp"
+import animateImg from "../images/animate.webp"
+import testImg from "../images/TestApp.webp"
+// import Blank from "../images/Blank.webp"
 
 /*
     make project images 720 x 360px. 
