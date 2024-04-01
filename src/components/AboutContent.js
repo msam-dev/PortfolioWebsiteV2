@@ -39,7 +39,7 @@ const AboutContent = () => {
             and effective communication, which allow me to excel in team environments.
           </p>
           <p className="AboutText">    
-            Aside from software stuff in my free time I enjoy cooking, reading, and doing a variety of physical activities 
+            Aside from software stuff, in my free time I enjoy cooking and reading as well as doing a variety of physical activities 
             such as bush walking, cycling, swimming, bouldering, lifting, etc.
           </p>
           <ImageWithHoverText
