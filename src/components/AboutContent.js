@@ -25,21 +25,21 @@ const AboutContent = () => {
             text ="Milford Sound, New Zealand"
           />
           <p className="AboutText">
-            To get a sense of who I am as a developer you should know two key things about me:
-            Firstly, I love the act of creation. My specific interests have shifted and evolved with time, but throughout the years 
-            my passion for making and building stuff has remained a constant focal point.   <br/>
-            Secondly, I have an innate fascination with all things related to science, technology, and engineering 
-            even those unrelated to my realm of expertise.
+            To get a sense of who I am as a developer you should know a couple things about me. Many aspects of personality have 
+            shifted and evolved with time but my passion for making and building stuff has remained a constant focal point over the years. 
+            I see this love for creating things as a fundamental characteristic of who I am and a deep source of meaning in life.
+            Alongside this, I have interest in all things science, technology, and engineering which is driven by my innate fascination
+            with the inner mechanics of complex systems.
           </p>
           <p className="AboutText">   
-            These characteristics are compatible with a many technical areas however, I specifically gravitated 
-            towards software development because I see it as a form of creation that is more flexible and less encumbered 
-            than disciplines that are strictly focused on engineering physical systems.
-            My passionate love of programming is complemented by my exceptional problem-solving skills 
-            and effective communication, which allow me to excel in team environments.
+            These characteristics are compatible with a variety of career paths however, I specifically gravitated 
+            towards software development because I see it as a medium of creation that is more flexible than the (unfortunately) 
+            encumbered and restrictive reality of engineering physical systems.
+            Along with my passionate love of programming I take pride in my effective communication skills and my ability to analyse and solve 
+            problems which have been invaluable when working in a team environment.
           </p>
           <p className="AboutText">    
-            Aside from software stuff in my free time I enjoy cooking, reading, and doing a variety of physical activities 
+            Aside from software stuff, in my free time I enjoy cooking, reading, and doing a variety of physical activities 
             such as bush walking, cycling, swimming, bouldering, lifting, etc.
           </p>
           <ImageWithHoverText
