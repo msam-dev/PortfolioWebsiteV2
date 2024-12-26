@@ -16,7 +16,7 @@ const AboutContent = () => {
           <p className="AboutText">
             I am a Software Engineer currently living in Sydney and working full-time for 
             Collins Aerospace. In 2022 I graduated from the University of Wollongong 
-            with a Bachelor's in Computer Science, Majoring in Software Engineering. 
+            with a Bachelor's in Computer Science - Software Engineering. 
           </p>
           <ImageWithHoverText
             style={HikingStyle}
@@ -25,32 +25,26 @@ const AboutContent = () => {
             text ="Milford Sound, New Zealand"
           />
           <p className="AboutText">
-            To get a sense of who I am as a developer you should know a couple things about me. Many aspects of personality have 
-            shifted and evolved with time but my passion for making and building stuff has remained a constant focal point over the years. 
+            If you get to know me I am sure you will come to find that my interests cover a very broad variety of topics. 
+            However, out of everything my passion for making and building stuff has remained constant point of focus throughout my whole life. 
             I see this love for creating things as a fundamental characteristic of who I am and a deep source of meaning in life.
-            Alongside this, I have interest in all things science, technology, and engineering which is driven by my innate fascination
-            with the inner mechanics of complex systems.
-          </p>
-          <p className="AboutText">   
-            These characteristics are compatible with a variety of career paths however, I specifically gravitated 
-            towards software development because I see it as a medium of creation that is more flexible than the (unfortunately) 
-            encumbered and restrictive reality of engineering physical systems.
-            Along with my passionate love of programming I take pride in my effective communication skills and my ability to analyse and solve 
-            problems which have been invaluable when working in a team environment.
+            Alongside this, I have an innate curiosity with the underlying mechanics of complex systems which drives my fascination with all things, science, technology, and engineering.
           </p>
           <p className="AboutText">    
-            Aside from software stuff, in my free time I enjoy cooking, reading, and doing a variety of physical activities 
-            such as bush walking, cycling, swimming, bouldering, lifting, etc.
+            Aside from software stuff, in my free time I enjoy reading, cooking, and doing a variety of physical activities 
+            such as bouldering, walking, cycling, swimming, hiking, etc.
           </p>
           <ImageWithHoverText
             style={HikingStyle}
             src  ={HikingNZ}
             alt  ="Photo of Samuel standing on a mountain"
-            text ="Photo of me solo hiking through the mountains of New Zealand"
+            text ="Solo hiking in New Zealand"
           />
           <p className="AboutText">
-            For specifics regarding my technical skills and experience, please see my <Link to="/Projects"><span className="inLineProjectLink">projects</span> </Link>
-            or <Link to="/Contact"><span className="inLineContactLink">contact me</span></Link> for a copy of my resume. 
+            For specifics regarding my skills and experience, please see my 
+            <Link to="/Resume"> <span className="inLineProjectLink">resume</span> </Link> 
+            or my
+            <Link to="/Projects"> <span className="inLineProjectLink">projects</span>.</Link>
           </p>
         </div>
       </div>
