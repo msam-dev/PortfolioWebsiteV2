@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.736879b8.css",
-    "main.js": "/static/js/main.53e54994.js",
+    "main.css": "/static/css/main.8f5c0f48.css",
+    "main.js": "/static/js/main.d3289d4f.js",
     "static/media/computer.gif": "/static/media/computer.8ce3a00d94a83d61141a.gif",
     "static/media/HikingNZ.webp": "/static/media/HikingNZ.7f2b42cdb6e67c326627.webp",
     "static/media/MilfordSound.webp": "/static/media/MilfordSound.507a2d8850eb7d9cb765.webp",
@@ -12,11 +12,11 @@
     "static/media/projectImage1.webp": "/static/media/projectImage1.bcdcd1b2b85452479e16.webp",
     "static/media/projectImage2.webp": "/static/media/projectImage2.ad0695361cf308ca4831.webp",
     "index.html": "/index.html",
-    "main.736879b8.css.map": "/static/css/main.736879b8.css.map",
-    "main.53e54994.js.map": "/static/js/main.53e54994.js.map"
+    "main.8f5c0f48.css.map": "/static/css/main.8f5c0f48.css.map",
+    "main.d3289d4f.js.map": "/static/js/main.d3289d4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.736879b8.css",
-    "static/js/main.53e54994.js"
+    "static/css/main.8f5c0f48.css",
+    "static/js/main.d3289d4f.js"
   ]
 }
