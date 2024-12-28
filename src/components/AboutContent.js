@@ -25,10 +25,10 @@ const AboutContent = () => {
             text ="Milford Sound, New Zealand"
           />
           <p className="AboutText">
-            My choice to become a software engineer is largely a product of my passion for creating and building stuff which has remained a constant 
-            focal point throughout my whole life. This love for making things is a fundamental characteristic of who I am and a deep source 
+            Becoming a software engineer has largely been a product of my passion for building stuff and making things, which has remained a constant 
+            focal point throughout my life. This love for creation is fundamental to who I am and a deep source 
             of meaning in life. Alongside this, I'm an insatiably curious person who is especially fascinated with the underlying mechanics 
-            of complex systems. This fascination is the driving force behind my obsession with all things, science, technology, and engineering.
+            of complex systems. These two characteristics are the driving force behind my obsession with all things, science, technology, and engineering.
           </p>
           <p className="AboutText">    
             Aside from software stuff, in my free time I enjoy reading, cooking, and doing a variety of physical activities 
