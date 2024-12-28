@@ -14,7 +14,7 @@ const ProjectData = [
     {
         imageSrc: defaultImg,
         projectTitle: "QuizGame.top",
-        projectSummary: "QuizGame.top is a live dynamic web app which has multiple geography based quizzes. I created this site using React, TypeScript, C#, SQLite, and it is hosted using AWS.",
+        projectSummary: "QuizGame.top is a dynamic web app which has multiple geography based quizzes. I created this site using React, TypeScript, C#, SQLite, and it is hosted using AWS.",
         projectUrl: "https://QuizGame.top",
         codeUrl: "https://github.com/mSam-Dev/quizgame.top",
         detailsUrl: "https://github.com/mSam-Dev/quizgame.top/blob/main/ProjectDetails.md",
