@@ -1,5 +1,5 @@
 ## Summary
-This is the second and incarnation of my personal developer portfolio.\
+This is the second incarnation of my personal developer portfolio.\
 I find that fancy and complex UI designs can be interesting, however when well executed a clean and minimal UI often offers a more enjoyable experience for the user. This is the core philosophy behind the design of this website.  
 
 ## Technical details
