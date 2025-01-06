@@ -10,12 +10,21 @@
     margin-top: 30px;
     margin-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+
+/* Adds a glow to the card with index 0
+   This is to show its my best project  */
+.projectCard.index0{
+    box-shadow: 0 0 10px 10px rgba(2, 173, 207, 0.584);
+    outline: 3px solid rgba(2, 173, 207, 0.632); 
 }
 
 .projectCard img{
     max-width: 500px;
     max-height: 250px;
     filter:  grayscale(100%);
+    border-radius: 7px 7px 0 0 ;
 }
 
 .projectTitle{

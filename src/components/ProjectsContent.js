@@ -13,6 +13,7 @@ const ProjectsContent = () => {
                 return(
                   <WorkCard 
                     key={ind}
+                    index={ind}
                     imageSrc={val.imageSrc}
                     projectTitle={val.projectTitle}
                     projectSummary={val.projectSummary}
