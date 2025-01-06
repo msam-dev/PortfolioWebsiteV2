@@ -14,7 +14,7 @@ const ProjectData = [
     {
         imageSrc: defaultImg,
         projectTitle: "QuizGame.top",
-        projectSummary: "QuizGame.top is a dynamic web app which has multiple geography based quizzes. I created this site using React, TypeScript, C#, SQLite, and it is hosted using AWS.",
+        projectSummary: "This project is a dynamic web app which provides geography based quizzes and user signup. I created quizgame.top using React (TypeScript), ASP.NET, SQLite, and it's hosted using AWS.",
         projectUrl: "https://QuizGame.top",
         codeUrl: "https://github.com/mSam-Dev/quizgame.top",
         detailsUrl: "https://github.com/mSam-Dev/quizgame.top/blob/main/ProjectDetails.md",
@@ -22,15 +22,15 @@ const ProjectData = [
     {
         imageSrc: projectImage1,
         projectTitle: "Portfolio Website",
-        projectSummary: "This is the website you are using right now! msam.dev was fully designed and created by me using the React JavaScript library.",
+        projectSummary: "This is the website you are using right now! msam.dev was fully designed and created by me using the React with vanilla JavaScript and it's hosted using GitHub Pages. ",
         projectUrl: "/",
         codeUrl: "https://github.com/mSam-Dev/PortfolioWebsiteV2",
         detailsUrl: "https://github.com/mSam-Dev/PortfolioWebsiteV2/blob/master/ProjectDetails.md",
     },
     {
         imageSrc: testImg,
-        projectTitle: "Android Test App",
-        projectSummary: "A quiz app I made that lets you test your knowledge on a variety of topics. It also has user registration so you can keep track of your quiz scores. This app was made using java for android.",
+        projectTitle: "Mobile Test App",
+        projectSummary: "An android quiz app I made that lets you test your knowledge on a variety of topics. This app was made using java, and SQLite with android studio.",
         projectUrl: "https://youtu.be/hi1MHuar9vk",
         codeUrl: "https://github.com/mSam-Dev/TestApp",
         detailsUrl: "https://github.com/mSam-Dev/TestApp/blob/master/ProjectDetails.md",
@@ -38,7 +38,7 @@ const ProjectData = [
     {
         imageSrc: projectImage2,
         projectTitle: "Scientific Calculator",
-        projectSummary: "A web-based calculator with some more functionality than many standard online calculators. It also includes day/night toggle. This website was made using HTML, CSS and JavaScript.",
+        projectSummary: "A web-based calculator with some additional scientific functionality. It also includes day/night toggle. This website was made using HTML, CSS and JavaScript.",
         projectUrl: "/calculator.html",
         codeUrl: "https://github.com/msam-dev/PortfolioWebsiteV2/tree/master/public",
         detailsUrl: "https://github.com/msam-dev/PortfolioWebsiteV2/blob/master/public/Calculator-ProjectDetails.md",
@@ -46,7 +46,7 @@ const ProjectData = [
     {
         imageSrc: animateImg,
         projectTitle: "Android Animations",
-        projectSummary: "A simple app I made to test and play with android’s image animation functionality. This app was made using java for android.",
+        projectSummary: "A simple app I made to test and play with android’s image animation functionality. This app was made using java with android studio.",
         projectUrl: "https://www.youtube.com/watch?v=NXO6JAi1iu0",
         codeUrl: "https://github.com/mSam-Dev/AndroidAnimation",
         detailsUrl: "https://github.com/mSam-Dev/AndroidAnimation/blob/main/ProjectDetails.md",
