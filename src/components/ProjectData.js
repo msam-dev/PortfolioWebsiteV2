@@ -2,7 +2,9 @@ import projectImage1 from "../images/projectImage1.webp"
 import projectImage2 from "../images/projectImage2.webp"
 import animateImg from "../images/animate.webp"
 import testImg from "../images/TestApp.webp"
-import defaultImg from "../images/projectImage3.webp"
+import quizgameImage from "../images/quizgame-top.webp"
+
+//import defaultImg from "../images/projectImage3.webp"
 // import Blank from "../images/Blank.webp"
 
 /*
@@ -12,7 +14,7 @@ import defaultImg from "../images/projectImage3.webp"
 
 const ProjectData = [
     {
-        imageSrc: defaultImg,
+        imageSrc: quizgameImage,
         projectTitle: "QuizGame.top",
         projectSummary: "This project is a dynamic web app which provides geography based quizzes and user signup. I created quizgame.top using React (TypeScript), ASP.NET, SQLite, and it's hosted using AWS.",
         projectUrl: "https://QuizGame.top",
