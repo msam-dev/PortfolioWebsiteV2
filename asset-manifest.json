@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b670fbae.css",
-    "main.js": "/static/js/main.ab4ea69b.js",
+    "main.js": "/static/js/main.bc7c92f8.js",
     "static/media/computer.gif": "/static/media/computer.8ce3a00d94a83d61141a.gif",
     "static/media/HikingNZ.webp": "/static/media/HikingNZ.7f2b42cdb6e67c326627.webp",
     "static/media/MilfordSound.webp": "/static/media/MilfordSound.507a2d8850eb7d9cb765.webp",
@@ -13,10 +13,10 @@
     "static/media/projectImage2.webp": "/static/media/projectImage2.ad0695361cf308ca4831.webp",
     "index.html": "/index.html",
     "main.b670fbae.css.map": "/static/css/main.b670fbae.css.map",
-    "main.ab4ea69b.js.map": "/static/js/main.ab4ea69b.js.map"
+    "main.bc7c92f8.js.map": "/static/js/main.bc7c92f8.js.map"
   },
   "entrypoints": [
     "static/css/main.b670fbae.css",
-    "static/js/main.ab4ea69b.js"
+    "static/js/main.bc7c92f8.js"
   ]
 }
